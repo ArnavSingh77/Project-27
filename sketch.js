@@ -9,12 +9,6 @@ var bob1,bob2,bob3,bob4
 var pos;
 var ground1,rope1,rope2,rope3,rope4,rope5;
 
-
-function preload()
-{
-	image = loadImage("sprites/BG.jpg");
-}
-
 function setup() {
 	createCanvas(800, 700);
 
@@ -45,7 +39,7 @@ function setup() {
 function draw() {
   rectMode(CENTER);
  
-  background(image);
+  background("lightgreen");
 
   
   rope1.display();
