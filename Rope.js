@@ -19,7 +19,7 @@ class Rope{
         push();
 
         stroke("white");
-        strokeWeight (1);
+        strokeWeight (3);
         var Anchor1X = pointA.x
         var Anchor1Y = pointA.y
         
